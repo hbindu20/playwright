@@ -137,3 +137,25 @@
 {"level":"debug","time":"2025-01-02T20:03:37.488+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
 {"level":"debug","time":"2025-01-02T20:03:37.488+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
 {"level":"debug","time":"2025-01-02T20:04:07.488+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::DIS::RESP\u001b[0m     Unable to dispatch job. You're currently on Free trial plan and will need MultiOS plan to run this on mac. Please upgrade by visiting - https://billing.lambdatest.com/billing/plans"}
+{"level":"debug","time":"2025-01-06T20:55:10.251+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-01-06T20:55:11.086+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.248} "}
+{"level":"debug","time":"2025-01-06T20:55:14.161+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2025-01-06T20:55:14.162+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2025-01-06T20:55:14.162+0530","caller":"yamlconfigmanager/setup.go:657","msg":"Custom location for .hyperexecute.yaml specified. Using: junit_hyperexecute_matrix_sample.yaml"}
+{"level":"error","time":"2025-01-06T20:55:14.162+0530","caller":"core/lifecycle.go:112","msg":"2025-01-06T20:55:09+05:30    error    \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location junit_hyperexecute_matrix_sample.yaml"}
+{"level":"debug","time":"2025-01-06T20:55:14.163+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-01-06T20:55:14.163+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-01-06T20:55:14.163+0530","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-01-06T20:55:14.163+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location junit_hyperexecute_matrix_sample.yaml"}
+{"level":"debug","time":"2025-01-06T21:25:09.803+0530","caller":"cmd/bin.go:121","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-01-06T21:25:10.577+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.248} "}
+{"level":"debug","time":"2025-01-06T21:25:13.040+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2025-01-06T21:25:13.041+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2025-01-06T21:25:13.041+0530","caller":"yamlconfigmanager/setup.go:657","msg":"Custom location for .hyperexecute.yaml specified. Using: junit_hyperexecute_matrix_sample.yaml"}
+{"level":"error","time":"2025-01-06T21:25:13.041+0530","caller":"core/lifecycle.go:112","msg":"2025-01-06T21:25:08+05:30    error    \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location junit_hyperexecute_matrix_sample.yaml"}
+{"level":"debug","time":"2025-01-06T21:25:13.042+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-01-06T21:25:13.042+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-01-06T21:25:13.042+0530","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-01-06T21:25:13.042+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location junit_hyperexecute_matrix_sample.yaml"}
+{"level":"error","time":"2025-01-06T22:16:36.731+0530","caller":"globalconfigvalidator/setup.go:54","msg":"2025-01-06T22:16:36+05:30    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username.    Unable to parse LT username. Use --user cli flag or LT_USERNAME environment variable"}
+{"level":"error","time":"2025-01-06T22:16:36.734+0530","caller":"cmd/bin.go:103","msg":"2025-01-06T22:16:36+05:30    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username."}

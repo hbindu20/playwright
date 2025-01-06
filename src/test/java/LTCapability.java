@@ -7,9 +7,10 @@ public class LTCapability {
     JsonObject capabilities1 = new JsonObject();
     JsonObject ltOptions1 = new JsonObject();
 
-    String user = System.getenv("LT_USERNAME") == null ? "LT_USERNAME" :
+    String user = System.getenv("LT_USERNAME") == null ? "himabindu.bandi20" :
             System.getenv("LT_USERNAME");
-    String accessKey = System.getenv("LT_ACCESS_KEY") == null ? "LT_ACCESS_KEY" :
+    String accessKey = System.getenv("LT_ACCESS_KEY") == null ?
+            "95pBacU70Lht4Ltd0ta1sD8VyoGn6BSAO1cmFJuWo1lZPRSoma" :
             System.getenv("LT_ACCESS_KEY");
 
     capabilities1.addProperty("browserName", "Chrome"); // Browsers allowed: `Chrome`, `MicrosoftEdge`, `pw-chromium`, `pw-firefox` and `pw-webkit`
