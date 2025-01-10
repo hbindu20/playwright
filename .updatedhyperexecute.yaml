@@ -1,26 +1,26 @@
 version: "0.1"
 user: himabindu.bandi20
 key: 95pBacU70Lht4Ltd0ta1sD8VyoGn6BSAO1cmFJuWo1lZPRSoma
-matrix: {classname: [SampleTest1, SampleTest2]}
-testSuites: ['mvn -Dplatname=mac -Dmaven.repo.local=./.m2 -Dtest=$classname test surefire-report:report']
+matrix: {classname: [SimpleFormDemo, DragDropSlider, InputFormSubmit]}
+testSuites: ['mvn -Dplatname=linux -Dmaven.repo.local=./.m2 -Dtest=$classname test surefire-report:report']
 pre: [npm install playwright@1.23.0 --save-exact, mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=true clean install]
 preDirectives:
     commands: [npm install playwright@1.23.0 --save-exact, mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=true clean install]
     maxRetries: 0
     shell: ""
     workingDirectory: ""
-post: [cat yaml/mac/junit_hyperexecute_matrix_sample.yaml]
+post: [cat yaml/linux/junit_hyperexecute_matrix_sample.yaml]
 postDirectives:
-    commands: [cat yaml/mac/junit_hyperexecute_matrix_sample.yaml]
+    commands: [cat yaml/linux/junit_hyperexecute_matrix_sample.yaml]
     shell: ""
     workingDirectory: ""
 env:
-    TARGET_OS: MacOS Catalina
+    TARGET_OS: linux
 jobLabel:
     - playwright-Junit
-    - mac
+    - linux
     - matrix
-runson: mac
+runson: linux
 concurrency: 2
 globalTimeout: 150
 tunnelOpts:
@@ -33,7 +33,7 @@ cacheKey: '{{ checksum "pom.xml" }}'
 retryOnFailure: true
 shell: bash
 maxRetries: 1
-jobID: d7644602-0ffe-42a4-8379-3c6a9e792d48
+jobID: 5d71d818-bdc5-453e-8c4d-ce0e8130eed1
 mergeArtifacts: true
 uploadArtefacts:
     - name: Surefire-Report

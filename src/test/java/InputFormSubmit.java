@@ -18,6 +18,7 @@ public class InputFormSubmit extends  BaseTest{
         Driver driver;
         Page page = null;
         try {
+
             driver = super.createConnection(capability);
             page = driver.getPage();
             page.navigate(testURL);

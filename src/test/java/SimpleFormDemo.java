@@ -6,6 +6,8 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
+
 @RunWith(DataProviderRunner.class)
 public class SimpleFormDemo extends  BaseTest{
   String testURL = "https://www.lambdatest.com/selenium-playground/";
@@ -23,14 +25,22 @@ public class SimpleFormDemo extends  BaseTest{
      page.setViewportSize(1900, 1050);
      
      page.locator("//a[text()='Simple Form Demo']").click();
-     String url = page.url();
-       Assert.assertTrue("Wrong url", url.contains("simple-form-demo"));
-       String actText = "Welcome to LambdaTest";
-       page.locator("//input[@placeholder='Please enter your Message']").fill(actText);
-       page.locator("button#showInput").click();
-       String expText = page.locator("//p[@id='message']").innerText();
-       Assert.assertEquals(actText + "doesn't match with" + expText, actText, expText);
-       super.closeConnection(driver);
+     Thread.sleep(1000);
+     String presenturl = page.url();
+     Assert.assertTrue(presenturl.contains("simple-form-demo"));
+     String actText = "Welcome to LambdaTest";
+     page.locator("//input[@placeholder='Please enter your Message']").fill(actText);
+     Thread.sleep(1000);
+     page.locator("//button[@id='showInput']").click();
+     Thread.sleep(1000);
+     assertThat(page.locator("//p[@id='message']")).containsText(actText);
+     Thread.sleep(2000);
+     if(page.title().equalsIgnoreCase("Selenium Grid Online | Run Selenium Test On Cloud")) {
+       super.setTestStatus("passed", "Title matched", page);
+     } else {
+       super.setTestStatus("failed", "Title not matched", page);
+     }
+     super.closeConnection(driver);
    } catch (Exception e) {
      e.printStackTrace();
      super.setTestStatus("failed",e.getMessage(),page);

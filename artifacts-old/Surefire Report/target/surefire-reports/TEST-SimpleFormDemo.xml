@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="SimpleFormDemo" time="0.004" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="SimpleFormDemo"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\foreman\hyperexecute-java-playwright-sample-main"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\foreman\hyperexecute-java-playwright-sample-main"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="D:\foreman\hyperexecute-java-playwright-sample-main\target\surefire\surefirebooter6117080847298294212.jar"/>
+    <property name="java.io.tmpdir" value="D:\Temp\1\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows Server 2016"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\UiPath\Studio\;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Katalon_Studio_Engine_Windows_64-8.6.5;C:\tools\ruby27\bin;C:\Ruby30-x64\bin;C:\gradle-6.9.1\bin;C:\tools\php-7.1;C:\tools\php-7.0;C:\PROGRA~1\MongoDB\Server\4.4\bin;C:\vcpkg;C:\cf-cli;C:\PROGRA~2\NSIS\;C:\PROGRA~1\MERCUR~1\;C:\HOSTED~1\windows\stack\25D33C~1.1\x64;C:\PROGRA~3\chocolatey\lib\GHC810~1.4\tools\GHC-81~1.4\bin;C:\PROGRA~1\dotnet;C:\MYSQL-~1.21-\bin;C:\PROGRA~1\R\R-40~1.3\bin\x64;C:\SELENI~1\GECKOD~1;C:\Rust\CARGO~1\bin;C:\PROGRA~2\GITHUB~1;C:\PROGRA~1\Git\bin;C:\PROGRA~2\sbt\bin;C:\PROGRA~2\pipx_bin;C:\HOSTED~1\windows\go\115~1.8\x64\bin;C:\HOSTED~1\windows\Python\37606B~1.9\x64\Scripts;C:\HOSTED~1\windows\Python\37606B~1.9\x64;C:\HOSTED~1\windows\Ruby\25F374~1.8\x64\bin;C:\ALIYUN~1;C:\npm\prefix;C:\PROGRA~2\MICROS~2\Azure\CLI2\wbin;C:\PROGRA~1\MICROS~4\Bin\;C:\PROGRA~3\kind;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WINDOW~1\v1.0\;C:\PROGRA~3\Chocolatey\bin;C:\PROGRA~1\Microsoft\Web Platform Installer\;C:\PROGRA~1\Docker;C:\PROGRA~1\PowerShell\7\;C:\PROGRA~1\dotnet\;C:\PROGRA~1\MICROS~1\130\Tools\Binn\;C:\PROGRA~2\MICROS~3\110\DTS\Binn\;C:\PROGRA~2\MICROS~3\120\DTS\Binn\;C:\PROGRA~2\MICROS~3\130\DTS\Binn\;C:\PROGRA~2\WI3CF2~1\10\WINDOW~1\;C:\PROGRA~1\MIA72F~1\bin\Fabric\FABRIC~1.COD;C:\PROGRA~1\MICROS~2\SERVIC~1\Tools\SERVIC~2;C:\PROGRA~1\nodejs\;C:\PROGRA~3\chocolatey\lib\pulumi\tools\Pulumi\bin;C:\PROGRA~3\chocolatey\lib\maven\APACHE~1.3\bin;C:\PROGRA~1\OpenSSL\bin;C:\STRAWB~1\c\bin;C:\STRAWB~1\perl\site\bin;C:\STRAWB~1\perl\bin;C:\PROGRA~1\Git\cmd;C:\PROGRA~1\Git\mingw64\bin;C:\PROGRA~1\Git\usr\bin;c:\tools\php;C:\PROGRA~1\TORTOI~1\bin;C:\SELENI~1\CHROME~1\;C:\SELENI~1\EDGEDR~1\;C:\PROGRA~1\CMake\bin;C:\PROGRA~1\Amazon\AWSCLIV2\;C:\PROGRA~1\Amazon\SESSIO~1\bin\;C:\PROGRA~1\Amazon\AWSSAM~1\bin\;C:\PROGRA~2\Google\CLOUDS~1\GOOGLE~1\bin;C:\PROGRA~2\MICROS~4\2019\COMMUN~1\Common7\IDE\EXTENS~1\TESTPL~1\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Gauge\bin;C:\Program Files\sfdx\bin\;C:\Program Files\nodejs\;C:\Program Files (x86)\SmartBear\TestComplete 15\Bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;."/>
+    <property name="surefire.test.class.path" value="D:\foreman\hyperexecute-java-playwright-sample-main\target\test-classes;D:\foreman\hyperexecute-java-playwright-sample-main\target\classes;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\com\microsoft\playwright\playwright\1.23.0\playwright-1.23.0.jar;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\com\microsoft\playwright\driver\1.23.0\driver-1.23.0.jar;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\com\microsoft\playwright\driver-bundle\1.23.0\driver-bundle-1.23.0.jar;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\junit\junit\4.13.2\junit-4.13.2.jar;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\com\tngtech\java\junit-dataprovider\1.13.1\junit-dataprovider-1.13.1.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="./.m2"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ltuser.ghtestVM"/>
+    <property name="user.timezone" value="UTC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="platname" value="win"/>
+    <property name="user.name" value="ltuser"/>
+    <property name="java.class.path" value="D:\foreman\hyperexecute-java-playwright-sample-main\target\test-classes;D:\foreman\hyperexecute-java-playwright-sample-main\target\classes;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\com\microsoft\playwright\playwright\1.23.0\playwright-1.23.0.jar;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\com\microsoft\playwright\driver\1.23.0\driver-1.23.0.jar;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\com\microsoft\playwright\driver-bundle\1.23.0\driver-bundle-1.23.0.jar;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\junit\junit\4.13.2\junit-4.13.2.jar;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2\com\tngtech\java\junit-dataprovider\1.13.1\junit-dataprovider-1.13.1.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="D:\foreman\hyperexecute-java-playwright-sample-main\target\surefire\surefirebooter6117080847298294212.jar D:\foreman\hyperexecute-java-playwright-sample-main\target\surefire\surefire4508189406927475138tmp D:\foreman\hyperexecute-java-playwright-sample-main\target\surefire\surefire6123140345006980195tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="D:\foreman\hyperexecute-java-playwright-sample-main\.\.m2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="SimpleFormDemo" name="simpleForm[0: {&quot;browserName&quot;:&quot;Chrome&quot;,&quot;browserVersion&quot;:&quot;latest&quot;,&quot;LT:Options&quot;:{&quot;platform&quot;:&quot;Windows 10&quot;,&quot;name&quot;:&quot;Playwright HyperExecute Test&quot;,&quot;build&quot;:&quot;Playwright HyperExecute Build&quot;,&quot;user&quot;:&quot;himabindu.bandi20&quot;,&quot;accessKey&quot;:&quot;95pBacU70Lht4Ltd0ta1sD8VyoGn6BSAO1cmFJuWo1lZPRSoma&quot;,&quot;video&quot;:true,&quot;console&quot;:true}}]" time="11.839"/>
+</testsuite>

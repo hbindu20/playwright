@@ -20,7 +20,7 @@ cacheDirectories:
   - .m2
 
 matrix:
-  classname: ["SimpleFormDemo","InputFormSubmit","DragDropSlider"]
+  classname: ["SimpleFormDemo","DragDropSlider", "InputFormSubmit"]
 # shell: bash
 
 pre:

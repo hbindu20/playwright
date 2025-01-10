@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="DragDropSlider" time="0.002" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/temurin-8-jdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.402-b06"/>
+    <property name="java.vm.vendor" value="Temurin"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="DragDropSlider"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/ltuser/foreman/hyperexecute-java-playwright-sample-main"/>
+    <property name="java.runtime.version" value="1.8.0_402-b06"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/ltuser/foreman/hyperexecute-java-playwright-sample-main"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/temurin-8-jdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/target/surefire/surefirebooter5987595375289239709.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/target/test-classes:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/target/classes:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/com/microsoft/playwright/playwright/1.23.0/playwright-1.23.0.jar:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/com/microsoft/playwright/driver/1.23.0/driver-1.23.0.jar:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/com/microsoft/playwright/driver-bundle/1.23.0/driver-bundle-1.23.0.jar:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/junit/junit/4.13.2/junit-4.13.2.jar:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/com/tngtech/java/junit-dataprovider/1.13.1/junit-dataprovider-1.13.1.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="./.m2"/>
+    <property name="os.version" value="5.15.0-1073-azure"/>
+    <property name="user.home" value="/home/ltuser"/>
+    <property name="user.timezone" value="Etc/GMT"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="platname" value="linux"/>
+    <property name="user.name" value="ltuser"/>
+    <property name="java.class.path" value="/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/target/test-classes:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/target/classes:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/com/microsoft/playwright/playwright/1.23.0/playwright-1.23.0.jar:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/com/microsoft/playwright/driver/1.23.0/driver-1.23.0.jar:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/com/microsoft/playwright/driver-bundle/1.23.0/driver-bundle-1.23.0.jar:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/junit/junit/4.13.2/junit-4.13.2.jar:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2/com/tngtech/java/junit-dataprovider/1.13.1/junit-dataprovider-1.13.1.jar:"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/temurin-8-jdk-amd64/jre"/>
+    <property name="sun.java.command" value="/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/target/surefire/surefirebooter5987595375289239709.jar /home/ltuser/foreman/hyperexecute-java-playwright-sample-main/target/surefire/surefire7958428028302681318tmp /home/ltuser/foreman/hyperexecute-java-playwright-sample-main/target/surefire/surefire8918108846114114923tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_402"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/temurin-8-jdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/temurin-8-jdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/temurin-8-jdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/temurin-8-jdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/temurin-8-jdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/temurin-8-jdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/temurin-8-jdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/temurin-8-jdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/temurin-8-jdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Temurin"/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="localRepository" value="/home/ltuser/foreman/hyperexecute-java-playwright-sample-main/./.m2"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="DragDropSlider" name="dragDrop[0: {&quot;browserName&quot;:&quot;Chrome&quot;,&quot;browserVersion&quot;:&quot;latest&quot;,&quot;LT:Options&quot;:{&quot;platform&quot;:&quot;Windows 10&quot;,&quot;name&quot;:&quot;Playwright HyperExecute Test&quot;,&quot;build&quot;:&quot;Playwright HyperExecute Build&quot;,&quot;user&quot;:&quot;himabindu.bandi20&quot;,&quot;accessKey&quot;:&quot;95pBacU70Lht4Ltd0ta1sD8VyoGn6BSAO1cmFJuWo1lZPRSoma&quot;,&quot;video&quot;:true,&quot;console&quot;:true}}]" time="9.633"/>
+</testsuite>
